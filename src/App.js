@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./Components/Navbar"
+import Home from './Components/Home';
+import Location from './Components/Location';
+import ParkingSpot from './Components/ParkingSpot';
+import MakeParkingAdmin from './Components/MakeParkingAdmin';
+import CartList from './Components/CartList';
+import Login from './Components/Login';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
+
+// Import the 'list' data
+import list from './Components/data';
 
 function App() {
+  // Define state variable 'cart' and its setter function 'setCart' using useState hook
+  const [cart, setCart] = useState([]);
+  
+  // Function to add an item to the cart
+  const addToCart = (data) => {
+    setCart([...cart, { ...data, quantity: 1 }]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>      
+      <Navbar/>:
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Location" element={<Location />} />
+        {/* Pass the 'list' data as a prop to the ParkingSpot component */}
+        <Route path="/ParkingSpot" element={<ParkingSpot addToCart={addToCart} list={list} />}/>
+        <Route path="/MakeParkingAdmin" element={<MakeParkingAdmin />} />
+        <Route path="/CartList" element={<CartList Cart={cart} />} />
+      </Routes>
+    </Router>
   );
 }
 
