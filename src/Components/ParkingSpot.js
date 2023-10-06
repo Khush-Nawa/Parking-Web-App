@@ -21,7 +21,7 @@ const ParkingSpot = ({ addToCart, list }) => {
                   variant="dark"
                   onClick={() => addToCart(item)} // Pass the item to addToCart
                   as={Link}
-                  to="/CartList"
+                  to="/Parking-Web-App/CartList"
                   className="mt-2">
                   Book Now
                 </Button>
