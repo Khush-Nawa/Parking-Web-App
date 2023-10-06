@@ -25,13 +25,13 @@ function App() {
     <Router>      
       <Navbar/>:
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Location" element={<Location />} />
+        <Route path="/Parking-Web-App/" element={<Login />} />
+        <Route path="/Parking-Web-App/Home" element={<Home />} />
+        <Route path="/Parking-Web-App/Location" element={<Location />} />
         {/* Pass the 'list' data as a prop to the ParkingSpot component */}
-        <Route path="/ParkingSpot" element={<ParkingSpot addToCart={addToCart} list={list} />}/>
-        <Route path="/MakeParkingAdmin" element={<MakeParkingAdmin />} />
-        <Route path="/CartList" element={<CartList Cart={cart} />} />
+        <Route path="/Parking-Web-App/ParkingSpot" element={<ParkingSpot addToCart={addToCart} list={list} />}/>
+        <Route path="/Parking-Web-App/MakeParkingAdmin" element={<MakeParkingAdmin />} />
+        <Route path="/Parking-Web-App/CartList" element={<CartList Cart={cart} />} />
       </Routes>
     </Router>
   );
