@@ -34,7 +34,7 @@ function Login() {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Button as={Link} to="/Home" variant="outline-dark mb-2">
+      <Button as={Link} to="/Parking-Web-App/Home" variant="outline-dark mb-2">
         Login
       </Button>
     </Form>

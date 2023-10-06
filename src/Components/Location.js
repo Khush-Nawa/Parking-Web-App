@@ -29,7 +29,7 @@ function Location() {
               <InputGroup.Text>Parking Duration/Hours:</InputGroup.Text>
               <Form.Control type='number' aria-label="Parking Duration" name="parkingDuration" />
             </InputGroup>
-            <Button as={Link} to="/ParkingSpot" variant="outline-dark" type="submit">
+            <Button as={Link} to="/Parking-Web-App/ParkingSpot" variant="outline-dark" type="submit">
               Submit
             </Button>
           </Form>

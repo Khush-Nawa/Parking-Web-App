@@ -86,7 +86,7 @@ function Home() {
             <Button variant="success" type="submit">
               Save
             </Button>
-            <Button className='m-2' as={Link} to="/Location" variant="success">
+            <Button className='m-2' as={Link} to="/Parking-Web-App/Location" variant="success">
               Submit
             </Button>
           </Form>
