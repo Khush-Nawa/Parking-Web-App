@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Parking-Web-App/static/css/main.c5d688c2.css",
-    "main.js": "/Parking-Web-App/static/js/main.249ad6ad.js",
+    "main.js": "/Parking-Web-App/static/js/main.d764f0da.js",
     "static/js/787.6e674749.chunk.js": "/Parking-Web-App/static/js/787.6e674749.chunk.js",
     "static/media/car.png": "/Parking-Web-App/static/media/car.77fe0724cee3b694e312.png",
     "static/media/bootstrap-icons.woff?": "/Parking-Web-App/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
@@ -9,11 +9,11 @@
     "static/media/logo.png": "/Parking-Web-App/static/media/logo.2dc68737bd8423f9e1fb.png",
     "index.html": "/Parking-Web-App/index.html",
     "main.c5d688c2.css.map": "/Parking-Web-App/static/css/main.c5d688c2.css.map",
-    "main.249ad6ad.js.map": "/Parking-Web-App/static/js/main.249ad6ad.js.map",
+    "main.d764f0da.js.map": "/Parking-Web-App/static/js/main.d764f0da.js.map",
     "787.6e674749.chunk.js.map": "/Parking-Web-App/static/js/787.6e674749.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5d688c2.css",
-    "static/js/main.249ad6ad.js"
+    "static/js/main.d764f0da.js"
   ]
 }
