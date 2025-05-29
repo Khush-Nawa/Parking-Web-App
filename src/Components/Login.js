@@ -35,8 +35,7 @@ function Login() {
           </Card>
         </div>
         <div className='my-3 col-md-6'>
-          <Card border="dark">            
-          {/* <Card.Title className='text-center mt-2 fw-bold'>OPSAM</Card.Title> */}
+          <Card border="dark">
           <Card.Title className='text-center mt-2'>Login Form</Card.Title>
             <Card.Body>
             <Form className="container">
