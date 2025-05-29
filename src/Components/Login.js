@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import loginImage from '../images/log-in2.png';
 import { Link } from 'react-router-dom';
 
 
@@ -29,12 +30,13 @@ function Login() {
         <div className='my-3 col-md-6'>
           <Card border="dark">
             <Card.Body>
-                <Card.Img src='https://mir-s3-cdn-cf.behance.net/projects/404/161ec8141928897.Y3JvcCw4MjIsNjQzLDIwLDA.png'></Card.Img>
+                <Card.Img src={loginImage}></Card.Img>
             </Card.Body>
           </Card>
         </div>
         <div className='my-3 col-md-6'>
           <Card border="dark">            
+          {/* <Card.Title className='text-center mt-2 fw-bold'>OPSAM</Card.Title> */}
           <Card.Title className='text-center mt-2'>Login Form</Card.Title>
             <Card.Body>
             <Form className="container">

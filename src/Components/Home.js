@@ -60,6 +60,7 @@ function Home() {
   return (
     <div className='container mt-4'>
       <div className="row">
+          <h1 className="register text-center mb-4">OPSAM: Optimal Parking Space Allocation Model</h1>
         <div className="col-md-6 mb-4">
           <h2 className="register text-center mb-4">Registration Form</h2>
           <Form onSubmit={handleSubmit}>
